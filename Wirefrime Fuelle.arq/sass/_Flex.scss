@@ -1,0 +1,30 @@
+$DisplayFlex: flex;
+
+
+.flex-nav{
+    display: $DisplayFlex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+     a{
+        background-image: url(R.jpg);
+        width: 200px;
+        height: 30px;
+        margin: 20px;
+        border: solid 2px rgb(32, 25, 25);
+        color: black;
+        justify-content: center;
+    }
+    
+}
+
+
+
+.flex_imag{
+    display: $DisplayFlex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 80px;
+   
+
+}
